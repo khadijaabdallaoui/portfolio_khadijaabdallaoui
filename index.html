@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Khadija Abdallaoui</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init({ publicKey: "7VkmtrkpdnxurTR3S" });
+    })();
+</script>
+</head>
+<body>
+
+<nav id="nav">
+    <div class="nav-inner">
+        <a href="#accueil" class="logo">KA</a>
+        <div class="nav-links">
+            <a href="#accueil" class="nav-link">Accueil</a>
+            <a href="#competences" class="nav-link">Compétences</a>
+            <a href="#projets" class="nav-link">Projets</a>
+            <a href="#parcours" class="nav-link">Parcours</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+</nav>
+
+<section id="accueil">
+    <div class="hero-content">
+        <p class="eyebrow">Développeuse Web Full Stack</p>
+        <h1>Bonjour, je suis<br>Khadija Abdallaoui</h1>
+        <p class="hero-text">
+            Je suis titulaire d'une licence en Droit et sécurité numérique,
+            ainsi que d'un diplôme de Technicienne Spécialisée en développement
+            digital, option Web Full Stack.
+        </p>
+        <div class="hero-actions">
+            <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+            <a href="#contact" class="btn btn-ghost">Me contacter</a>
+        </div>
+    </div>
+</section>
+
+<section id="competences">
+    <h2>Mes compétences</h2>
+    <div class="competences-container">
+        <div class="competence-card">
+            <div class="competence-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Front-End</h3>
+            <ul class="tag-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>ReactJS</li>
+            </ul>
+        </div>
+        <div class="competence-card">
+            <div class="competence-icon"><i class="fa-solid fa-server"></i></div>
+            <h3>Back-End</h3>
+            <ul class="tag-list">
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>NodeJS</li>
+            </ul>
+        </div>
+        <div class="competence-card">
+            <div class="competence-icon"><i class="fa-solid fa-database"></i></div>
+            <h3>Bases de données</h3>
+            <ul class="tag-list">
+                <li>SQL</li>
+                <li>NoSQL</li>
+            </ul>
+        </div>
+        <div class="competence-card">
+            <div class="competence-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <h3>Modélisation</h3>
+            <ul class="tag-list">
+                <li>UML</li>
+            </ul>
+        </div>
+        <div class="competence-card">
+            <div class="competence-icon"><i class="fa-solid fa-cubes"></i></div>
+            <h3>Programmation Orientée Objet</h3>
+            <ul class="tag-list">
+                <li>Python</li>
+            </ul>
+        </div>
+        <div class="competence-card">
+            <div class="competence-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Sécurité informatique</h3>
+            <ul class="tag-list">
+                <li>Connaissances en sécurité informatique</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="projets">
+    <h2>Mes projets</h2>
+    <div class="projets-container">
+        <article class="projet-card">
+            <div class="projet-banner"><i class="fa-solid fa-mug-hot"></i></div>
+            <div class="projet-body">
+                <h3>Site Starbucks</h3>
+                <p>
+                    Réalisation d'un site web inspiré de l'expérience Starbucks,
+                    intégrant un système de commande en ligne permettant aux
+                    utilisateurs de consulter différents produits, notamment des
+                    boissons ainsi que des produits sucrés et salés. Ce projet m'a
+                    permis de mettre en pratique mes compétences en développement
+                    web, notamment en conception d'interfaces, en structuration des
+                    pages et en amélioration de l'expérience utilisateur.
+                </p>
+                <ul class="tag-list tag-list-inline">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap</li>
+                </ul>
+                <a href="https://khadijaabdallaoui.github.io/site-starbucks/" class="projet-link">Voir le projet <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </article>
+        <article class="projet-card">
+            <div class="projet-banner"><i class="fa-solid fa-couch"></i></div>
+            <div class="projet-body">
+                <h3>Site de design intérieur — HomeByYou</h3>
+                <p>
+                    Participation à la conception et au développement, en équipe,
+                    d'un site web dédié au design d'intérieur dans le cadre du
+                    projet de fin d'études (PFE). Responsable de la partie
+                    Front-End, avec pour missions la conception et l'intégration
+                    des interfaces web ainsi que la mise en forme des différentes
+                    pages. Réalisation de tests afin de vérifier la qualité, la
+                    fiabilité et le bon fonctionnement des interfaces développées.
+                </p>
+                <ul class="tag-list tag-list-inline">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Travail d'équipe</li>
+                </ul>
+                <a href="https://khadijaabdallaoui.github.io/homebyYou/" class="projet-link">Voir le projet <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section id="parcours">
+    <h2>Formation et Expériences</h2>
+
+    <h3 class="parcours-subtitle">Formation</h3>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h4>Licence en Droit et Sécurité numérique</h4>
+            <p>Faculté des Sciences Juridiques et Politiques de Settat — 2024-2025</p>
+        </div>
+        <div class="timeline-item">
+            <h4>Diplôme de Technicienne Spécialisée en Développement Digital, option Web Full Stack</h4>
+            <p>Institut Spécialisé de Technologie Appliquée de Settat — 2022-2024</p>
+        </div>
+        <div class="timeline-item">
+            <h4>Baccalauréat Scientifique, option Sciences de la Vie et de la Terre (SVT)</h4>
+            <p>Lycée Errazi de Settat — 2022</p>
+        </div>
+    </div>
+
+    
+<h3 class="parcours-subtitle">Expériences professionnelles</h3>
+
+<div class="timeline">
+
+    <div class="timeline-item">
+        <span class="current-badge">Actuellement</span>
+        <h4>Assistante Administrative — Présidence de l'Université Hassan 1er, Settat</h4>
+        <p>
+            Chargée de l'accueil et de l'orientation des visiteurs, du
+            traitement et du suivi du courrier administratif, ainsi que
+            du traitement des documents. Participation également à
+            l'organisation des réunions de la Présidence.
+        </p>
+    </div>
+
+    <div class="timeline-item">
+        <span class="current-badge">01/10/2024-01/11/2024</span>
+        <h4>Stagiaire — École Nationale de Commerce et de Gestion, Settat</h4>
+        <p>
+            Gestion et traitement des données des étudiants à l'aide
+            d'outils informatiques, notamment la saisie, la vérification
+            et la mise à jour des informations. Cette expérience m'a permis
+            de développer ma maîtrise des outils numériques, ainsi que ma
+            rigueur dans la gestion et l'organisation des données.
+        </p>
+    </div>
+
+    <div class="timeline-item">
+        <span class="current-badge">01/03/2024-30/03/2024</span>
+        <h4>Stagiaire — Agence Nationale de Promotion de l'Emploi et des Compétences, Settat</h4>
+        <p>
+            Saisie, traitement et gestion de données à l'aide d'outils
+            informatiques. Accompagnement des chercheurs d'emploi dans
+            leurs démarches d'inscription et le suivi des offres. Ce stage
+            m'a permis de renforcer mes compétences numériques, ma
+            maîtrise des outils informatiques et mon organisation dans le
+            traitement des informations.
+        </p>
+    </div>
+
+</div>
+
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm" novalidate>
+        <div class="form-group">
+            <label for="nom">Nom complet</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom">
+            <span class="error-message" id="nomError"></span>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="vous@exemple.com">
+            <span class="error-message" id="emailError"></span>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Votre message"></textarea>
+            <span class="error-message" id="messageError"></span>
+        </div>
+        <button type="submit">Envoyer</button>
+        <p class="form-success" id="formSuccess" hidden>
+            <i class="fa-solid fa-circle-check"></i> Merci, votre message a bien été noté.
+        </p>
+    </form>
+</section>
+
+<footer>
+    <p>© <span id="year"></span> Khadija Abdallaoui — Développeuse Web Full Stack</p>
+    <a href="#accueil" class="back-to-top" aria-label="Retour en haut"><i class="fa-solid fa-arrow-up"></i></a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
